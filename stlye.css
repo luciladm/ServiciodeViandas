@@ -18,7 +18,7 @@ a {
 
 header nav {
     margin-right: 20px;
-    background-color: rgb(252, 248, 241);
+    background-image: linear-gradient(to left, rgb(231, 120, 120), rgb(247, 247, 196));
     position: fixed;
     left: 0;
     top: 0;
@@ -31,6 +31,7 @@ header nav ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 header img.logo {
@@ -50,6 +51,10 @@ header li.bar {
 header li.bar:hover, main li.link:hover {
     background: none;
     color: lightsalmon;
+}
+
+header li.bar:hover {
+    transform: scale(1.1);
 }
 
 header div img {
@@ -221,6 +226,10 @@ footer div a {
     font-size: 2.5rem;
     color: white;
     margin: 1rem;
+}
+
+footer div a:hover {
+    transform: scale(1.1);
 }
 
 /* fin index */
@@ -437,6 +446,15 @@ main ol {
 
 @media screen and (min-width: 768px) {
 
+.aumentar {
+    transition: all 0.5s ease-in;
+}
+
+.aumentar:hover {
+    transform: scale(1.1);
+}
+
+
 #viandas {
     padding: 2rem;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
@@ -516,6 +534,8 @@ main .contenedor img {
     height: 200px;
     object-fit: cover;
 }
+
+
 
 }
 
