@@ -42,18 +42,17 @@ input#menu {
     display: none;
 }
 
-header li.bar {
+header .nav-link {
     color: black;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 2.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
 }
 
-header li.bar:hover, main li.link:hover {
+header .nav-link:hover, main li.link:hover {
     background: none;
     color: lightsalmon;
 }
 
-header li.bar:hover {
+header .nav-link:hover {
     transform: scale(1.1);
 }
 
@@ -123,7 +122,7 @@ header .bar {
     justify-content: space-evenly;
 }
 
-header li.bar:hover, main li.link:hover {
+header .nav-link:hover, main li.link:hover {
     background-color: antiquewhite;
     transition: 0.5s;
 }
@@ -160,10 +159,14 @@ main p.empresa {
     border-style: solid;
     width: 100%;
     color: rgb(49, 47, 47);
-    margin: 5px;
     padding: 30px;
     background-color: rgb(252, 248, 241);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5)
+}
+
+main .location {
+    display: flex;
+    justify-content: flex-end;
 }
 
 main img {
