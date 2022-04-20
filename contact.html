@@ -58,7 +58,47 @@
         </nav> -->
     </header>
     <main  >
-        <form action="/ruta-destino" method="get" enctype="application/x-www-form-urlencoded">
+    <form class="row g-3">
+    <div class="row">
+        <div class="col">
+        <label for="name" class="texto"> Nombre</label>
+        <input type="text" class="form-control" aria-label="Name" id="name">
+        </div>
+        <div class="col">
+        <label for="company" class="texto"> Empresa</label>
+        <input type="text" class="form-control" aria-label="Company" id="company">
+        </div>
+    </div>
+    <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-12">
+        <label for="inputAddress2" class="form-label">Servicio en el que estás interesado</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="A domicilio, envío a empresas, o VIP">
+    </div>
+    <!-- <div class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
+    </div> -->
+    <div class="col-md-4">
+        <label for="inputState" class="form-label">Zona</label>
+        <select id="inputState" class="form-select">
+        <option hidden selected>Elige</option>
+        <option>CABA</option>
+        <option>Zona Sur</option>
+        <option>Zona Oeste</option>
+        <option>Zona Norte</option>
+        </select>
+    </div>
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="reset" class="btn btn-primary">Borrar</button>
+    </div>
+    </form>
+        <!-- FORM -->
+        <!-- <form action="/ruta-destino" method="get" enctype="application/x-www-form-urlencoded">
             <fieldset>
                 <legend>Contáctanos</legend>
                 <label class="texto" for="nombreyapellido">Nombre y Apellido</label>
@@ -89,7 +129,7 @@
                 <button type="reset">Borrar</button>
                 <button type="submit">Enviar</button>
             </fieldset>
-        </form>
+        </form> -->
     </main>
     <footer id="footer">
         <div>

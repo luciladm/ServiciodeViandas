@@ -350,6 +350,7 @@ main img.servicesuno {
 /* contact */
 
 form {
+    margin: 2rem !important;
     background-color: rgb(247, 235, 216);
     width: 90%;
     max-width: 600px;
@@ -443,6 +444,10 @@ main ol {
     font-size: 20px;
     font-style: italic;
     padding: 10px;
+}
+
+.aumentar {
+    width: 16rem !important;
 }
 
 /* media queries */
