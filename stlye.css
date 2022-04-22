@@ -104,10 +104,19 @@ main img {
     border-radius: 10px;
 }
 
+main .row .card-img-top {
+    width: 250px ;
+    height: 500px;
+}
+
  main iframe {
     width: 250px;
-    height: 250px;
+    height: 520px;
     padding: 10px;
+}
+
+main .card {
+    margin: 10px !important;
 }
 
 /* FOOTER */
@@ -250,7 +259,6 @@ main ol {
 
 #viandas {
     padding: 2rem;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
     width: 90%;
     margin: auto;
     display: grid;
