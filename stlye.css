@@ -77,10 +77,10 @@ header .nav-link:hover, main li.link:hover {
 
 /* MAIN */
 
-main h1  {
+main div.fondo  {
   width: 100%;
   height: 65vh;
-  background-image: url("../ServiciodeViandas_deMataLucila/images/imagencuatro.jpg");
+  background-image: url(./images/imagencuatro.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -196,12 +196,6 @@ main div.aboutus {
 }
 
 /* fin aboutus */
-
-/* services */
-
-
-
-/* end services */
 
 /* contact */
 
