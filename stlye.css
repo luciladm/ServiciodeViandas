@@ -197,7 +197,7 @@ main div.aboutus {
 /* contact */
 
 form {
-    margin: 2rem !important;
+    margin: 2rem auto !important;
     background-color: rgb(247, 235, 216);
     width: 90%;
     max-width: 600px;
