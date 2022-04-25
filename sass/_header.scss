@@ -1,0 +1,29 @@
+/* Estilos del header */
+
+header {
+    .navbar {  
+        margin-right: 20px;
+        background-image: linear-gradient(to left, $colorPrincipal, $colorSecundario);
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        .container-fluid {
+            .navbar-brand {
+                .logo {
+                    display: none;
+                }
+            }
+            .collapse {
+                .nav-link {
+                    color: black !important;
+                    &:hover {
+                        background: none;
+                        color: lightsalmon;
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$colorPrincipal: rgb(231, 120, 120);
+$colorSecundario: rgb(247, 247, 196);
+
+li {
+    list-style: none;
+  }
+  
+a {
+    text-decoration: none;
+  }
+
+@import "header.scss";
+@import "index.scss";
+    
