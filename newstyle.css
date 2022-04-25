@@ -13,18 +13,25 @@ a {
 header .navbar {
   margin-right: 20px;
   background-image: linear-gradient(to left, #e77878, #f7f7c4);
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   width: 100%; }
   header .navbar .container-fluid .navbar-brand .logo {
-    display: none; }
+    display: block;
+    position: relative;
+    height: 75px;
+    width: 80px;
+    border-radius: 20%; }
   header .navbar .container-fluid .collapse .nav-link {
     color: black !important; }
     header .navbar .container-fluid .collapse .nav-link:hover {
-      background: none;
       color: lightsalmon;
       transform: scale(1.1); }
+
+@media screen and (max-width: 400px) {
+  header .container-fluid .navbar-brand .logo {
+    display: none; } }
 
 main .fondo {
   width: 100%;
@@ -46,10 +53,18 @@ main .row .card iframe {
   height: 520px;
   padding: 10px; }
 
-@media screen and (min-width: 768px) {
-  header .container-fluid .navbar-brand .logo {
-    display: inline-block;
-    position: relative;
-    height: 75px;
-    width: 80px;
-    border-radius: 20%; } }
+/* FOOTER */
+footer {
+  background-image: url("images/imagendos.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+  footer div {
+    display: flex;
+    justify-content: center; }
+    footer div a {
+      font-size: 2.5rem;
+      color: white;
+      margin: 1rem; }
+      footer div a:hover {
+        transform: scale(1.1); }

@@ -27,17 +27,22 @@ main {
     }
 }
 
-@media screen and (min-width: 768px) {
-    header {
-        .container-fluid {
-            .navbar-brand {
-                .logo {
-                    display: inline-block;
-                    position: relative;
-                    height: 75px;
-                    width: 80px;
-                    border-radius: 20%;
-                }
+/* FOOTER */
+
+footer {
+    background-image: url("images/imagendos.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    div {
+        display: flex;
+        justify-content: center;
+        a {
+            font-size: 2.5rem;
+            color: white;
+            margin: 1rem;
+            &:hover {
+                transform: scale(1.1);
             }
         }
     }

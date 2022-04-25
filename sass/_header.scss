@@ -4,24 +4,39 @@ header {
     .navbar {  
         margin-right: 20px;
         background-image: linear-gradient(to left, $colorPrincipal, $colorSecundario);
-        position: fixed;
+        position: absolute;
         left: 0;
         top: 0;
         width: 100%;
         .container-fluid {
             .navbar-brand {
                 .logo {
-                    display: none;
+                    display: block;
+                    position: relative;
+                    height: 75px;
+                    width: 80px;
+                    border-radius: 20%;
                 }
             }
             .collapse {
                 .nav-link {
                     color: black !important;
                     &:hover {
-                        background: none;
                         color: lightsalmon;
                         transform: scale(1.1);
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        .container-fluid {
+            .navbar-brand {
+                .logo {
+                    display: none;
                 }
             }
         }
