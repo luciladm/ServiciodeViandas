@@ -8,10 +8,10 @@ main {
         background-position: center;
     }
     .row {
+        margin: auto !important;
         .card {
             .card-img-top {
-                width: 350px;
-                margin: 1rem;
+                width: 270px;
                 height: 500px;
                 object-fit: cover;
                 border-radius: 10px;
