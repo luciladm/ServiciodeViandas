@@ -1,6 +1,6 @@
 /* viandas */
 
-main {
+#viandas {
     .card {
         margin: auto !important;
         .aumentar {
@@ -12,7 +12,7 @@ main {
 /* media queries */
 
 @media screen and (min-width: 768px) {
-    main {
+    #viandas {
         padding: 2rem;
         width: 90%;
         margin: auto;

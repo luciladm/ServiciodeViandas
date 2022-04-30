@@ -127,14 +127,14 @@ main .col-12 button {
 
 /* end contact */
 /* viandas */
-main .card {
+#viandas .card {
   margin: auto !important; }
-  main .card .aumentar {
+  #viandas .card .aumentar {
     width: 16rem !important; }
 
 /* media queries */
 @media screen and (min-width: 768px) {
-  main {
+  #viandas {
     padding: 2rem;
     width: 90%;
     margin: auto;
