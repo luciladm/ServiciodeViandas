@@ -1,0 +1,23 @@
+main {
+    table {
+        background-color: rgb(226, 216, 216);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 30px auto;
+        width: 100%;
+        .up {
+            background-image: linear-gradient(to left,$colorPrincipal, $colorSecundario);
+            border-bottom: solid 2px black;
+            th {
+                padding: 15px;
+            }
+        }
+        tr {
+            :nth-child(even) {
+            background-color: whitesmoke;
+            }
+            td {
+                padding: 15px;
+            }
+        }
+    }
+}

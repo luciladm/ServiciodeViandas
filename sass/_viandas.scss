@@ -1,0 +1,65 @@
+/* viandas */
+
+main {
+    .card {
+        margin: auto !important;
+        .aumentar {
+            width: 16rem !important;
+        }
+    }
+}
+
+/* media queries */
+
+@media screen and (min-width: 768px) {
+    main {
+        padding: 2rem;
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 25%);
+        grid-template-areas: 
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        ;
+        .card {
+            img {
+                width: 200px;
+                height: 200px;
+            }
+            .img4 {
+                grid-area: a;
+            }
+            .img5 {
+                grid-area: b;
+            }
+            .im6 {
+                grid-area: c;
+            }
+            .img7 {
+                grid-area: d;
+            }
+            .img8 {
+                grid-area: e;
+            }
+            .img9 {
+                grid-area: f;
+            }
+            .img10 {
+                grid-area: g;
+            }
+            .img11 {
+                grid-area: h;
+            }
+            .aumentar {
+                transition: all 0.5s ease-in;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}

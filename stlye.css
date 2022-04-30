@@ -1,162 +1,20 @@
 
 
-/* aboutus */
-
-main p.aboutus {
-    background-color: rgb(252, 248, 241);
-    text-align: center;
-    font-size: 20px;
-    border-style: inset;
-    padding: 0.5rem;
-    margin: 8px;
-    border-radius: 20px;
-}
-
-main span.aboutus {
-    background-color: beige;
-    font-size: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: inline-block;
-    padding: 10px;
-    margin: 5px;
-}
-
-main div.aboutus {
-    display: flex;
-    flex-direction: column;
-}
-
-
-/* media queries */
-
-@media screen and (min-width: 768px) {
-    main div.aboutus {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin-top: 30px;
-        margin-left: 130px;
-    }
-
-    main span.aboutus {
-        padding: 20px;
-        margin: 15px;
-    }
-
-    main p.aboutus {
-        padding: 1rem;
-        margin: 10px;
-        border-radius: 20px;
-    }
-
-}
-
-/* fin aboutus */
-
-/* contact */
-
-form {
-    margin: 2rem auto !important;
-    background-color: rgb(247, 235, 216);
-    width: 90%;
-    max-width: 600px;
-    padding: 4.5em 3em;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgb(0, 0, 0 );
-}
-
-main label {
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    margin: 5px;
-}
-
-main button {
-    width:100%;
-	padding:8px 16px;
-	margin-top:32px;    
-	border-radius:5px;
-    color: white;
-}
-
-/* fin contact */
-
-/* viandas*/
-
-div.card {
-    margin: auto !important;
-}
-
-main ol {
+/* main ol {
     font-size: 20px;
     font-style: italic;
     padding: 10px;
-}
+} */
 
-.aumentar {
-    width: 16rem !important;
-}
 
 /* media queries */
 
-@media screen and (min-width: 768px) {
-
-.aumentar {
-    transition: all 0.5s ease-in;
-}
-
-.aumentar:hover {
-    transform: scale(1.1);
-}
 
 
-#viandas {
-    padding: 2rem;
-    width: 90%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 25%);
-    grid-template-areas: 
-    "a b"
-    "c d"
-    "e f"
-    "g h"
-    ;
-}
 
-main .img4 {
-    grid-area: a;
-}
 
-main .img5 {
-    grid-area: b;
-}
 
-main .img6 {
-    grid-area: c;
-}
-
-main .img7 {
-    grid-area: d;
-}
-
-main .img8 {
-    grid-area: e;
-}
-
-main .img9 {
-    grid-area: f;
-}
-
-main .img10 {
-    grid-area: g;
-}
-
-main .img11 {
-    grid-area: h;
-}
-
-main .viandas {
+/* main .viandas {
     display: grid;
     grid-template-columns: repeat(2, 100px);
     grid-gap: 20px;
@@ -180,38 +38,10 @@ main .viandas {
 
 .img7 .img11 {
     grid-area: h;
-}
+} */
 
-main .contenedor img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-}
-
-}
 
 /* end viandas */
 
 /* Services */
 
-table {
-    background-color: rgb(226, 216, 216);
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 30px auto;
-    width: 100%;
-}
-
-th, td {
-    padding: 15px;
-}
-
-tr:nth-child(even) {
-    background-color: whitesmoke;
-}
-
-thead {
-    background-image: linear-gradient(to left, rgb(231, 120, 120), rgb(247, 247, 196));
-    border-bottom: solid 2px black;
-}
-
-/* end services */
