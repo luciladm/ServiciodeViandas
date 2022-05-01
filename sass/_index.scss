@@ -1,3 +1,8 @@
+@mixin iframeSizes ($width, $height) {
+    width: $width   ;
+    height: $height;
+}
+
 main {
     .fondo {
         width: 100%;
@@ -19,8 +24,7 @@ main {
         }
         .card {
             iframe {
-                width: 250px;
-                height: 520px;
+                @include iframeSizes(250px, 520px );
                 padding: 10px;
             }
         }

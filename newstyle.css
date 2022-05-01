@@ -105,11 +105,12 @@ main .about {
     margin: 15px; } }
 
 /* contact */
+/* maps */
 main form {
-  margin: 2rem auto !important;
   background-color: #f7ebd8;
   width: 90%;
   max-width: 600px;
+  margin: 2rem auto !important;
   padding: 4.5em 3em;
   border-radius: 10px;
   box-shadow: 0 5px 10px black; }
@@ -118,7 +119,7 @@ main form {
     font-family: 'Roboto', sans-serif;
     margin: 5px; }
 
-main .col-12 button {
+main .col-12 .enviar, main .col-12 .borrar {
   width: 100%;
   padding: 8px 16px;
   margin-top: 32px;
@@ -141,37 +142,30 @@ main .col-12 button {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 25%);
-    grid-template-areas: "a b"
-  "c d"
- "e f"
- "g h"; }
-    main .card img {
+    grid-template-areas: "a b" "c d" "e f" "g h"; }
+    #viandas .card img {
       width: 200px;
       height: 200px; }
-    main .card .img4 {
+    #viandas .card .img4 {
       grid-area: a; }
-    main .card .img5 {
+    #viandas .card .img5 {
       grid-area: b; }
-    main .card .im6 {
+    #viandas .card .im6 {
       grid-area: c; }
-    main .card .img7 {
+    #viandas .card .img7 {
       grid-area: d; }
-    main .card .img8 {
+    #viandas .card .img8 {
       grid-area: e; }
-    main .card .img9 {
+    #viandas .card .img9 {
       grid-area: f; }
-    main .card .img10 {
+    #viandas .card .img10 {
       grid-area: g; }
-    main .card .img11 {
+    #viandas .card .img11 {
       grid-area: h; }
-    main .card .aumentar {
+    #viandas .card .aumentar {
       transition: all 0.5s ease-in; }
-      main .card .aumentar:hover {
+      #viandas .card .aumentar:hover {
         transform: scale(1.1); } }
-
-/* end viandas */
-
-/* services */
 
 main table {
   background-color: #e2d8d8;
@@ -187,5 +181,3 @@ main table {
     background-color: whitesmoke; }
   main table tr td {
     padding: 15px; }
-
-/* end services */

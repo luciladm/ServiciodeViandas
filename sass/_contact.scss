@@ -1,11 +1,19 @@
 /* contact */
 
+/* maps */
+
+$formStyle: (
+    color: rgb(247, 235, 216),
+    border-radius: 10px,
+    max-width: 600px,
+);
+
 main {
     form {
-        margin: 2rem auto !important;
-        background-color: rgb(247, 235, 216);
+        background-color: map-get($formStyle, color );
         width: 90%;
-        max-width: 600px;
+        max-width: map-get($formStyle, max-width);
+        margin: 2rem auto !important;
         padding: 4.5em 3em;
         border-radius: 10px;
         box-shadow: 0 5px 10px rgb(0, 0, 0 );
@@ -20,12 +28,16 @@ main {
         }
     }
     .col-12 {
-        button {
+        .enviar {
             width:100%;
             padding:8px 16px;
             margin-top:32px;    
             border-radius:5px;
             color: white;
+        }
+        .borrar {
+            @extend .enviar;
+            background-color: lightblue;
         }
     }
 }
