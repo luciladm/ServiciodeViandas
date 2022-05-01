@@ -4,7 +4,7 @@ header {
     .navbar {  
         margin-right: 20px;
         background-image: linear-gradient(to left, $colorPrincipal, $colorSecundario);
-        position: absolute;
+        position: sticky;
         left: 0;
         top: 0;
         width: 100%;
@@ -42,3 +42,5 @@ header {
         }
     }
 }
+
+/* end header */

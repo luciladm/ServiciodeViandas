@@ -38,6 +38,7 @@ main {
         .borrar {
             @extend .enviar;
             background-color: lightblue;
+            color: blue;
         }
     }
 }

@@ -1,3 +1,5 @@
+/* services */
+
 main {
     table {
         background-color: rgb(226, 216, 216);
@@ -12,12 +14,14 @@ main {
             }
         }
         tr {
-            :nth-child(even) {
-            background-color: whitesmoke;
-            }
             td {
+                &:nth-child(even) {
+                    background-color: whitesmoke;
+                    }
                 padding: 15px;
             }
         }
     }
 }
+
+/* end services */
