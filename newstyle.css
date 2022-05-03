@@ -41,13 +41,6 @@ main .fondo {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-  main .fondo h1 {
-    font-size: 1.5rem;
-    color: #f7f7c4;
-    text-transform: uppercase;
-    padding: 1rem;
-    width: 100%;
-    text-align: center; }
 
 main .row {
   margin: auto !important; }
